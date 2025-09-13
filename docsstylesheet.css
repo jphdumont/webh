@@ -1,0 +1,217 @@
+#tripane img{
+	vertical-align : middle;
+}
+
+a {
+	cursor : auto;
+}
+
+a:link {
+	color : #000099;
+}
+
+a:visited {
+	color : #000099;
+}
+
+a:hover {
+	color : #000099;
+	background-color: #CCCCCC;
+}
+
+a.topbutton, a.topbutton:visited {
+	border : 1px solid #ffffff;
+	background : #000152;
+	color : #333399;
+	font : 11px Verdana, sans-serif;
+	cursor : auto;
+	padding : 4px;
+	text-align : center;
+	text-decoration : none;
+}
+
+a.selectedtab:link, a.selectedtab:visited, a.selectedtab:hover{
+	border : 2px solid;
+	border-bottom-color : #102E51;
+	border-left-color : #102E51;
+	border-right-color : #102E51;
+	border-top-color : #102E51;
+	background-color : #ffffff;
+	color : #102E51;
+	margin : 0px;
+	padding : 1px 8px 2px 8px;
+	text-align : center;
+	text-decoration : none;
+	font-family: "MS Sans Serif", sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+a.tab:link, a.tab:visited, a.tab:hover{
+	border-bottom-style : none;
+	border-left-color : #E3E3E7;
+	border-right-color : #E3E3E7;
+	border-top-color : #E3E3E7;
+	color : #102E51;
+	margin : 0px;
+	padding : 1px 8px 2px 8px;
+	text-align : center;
+	text-decoration : none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	font-family: "MS Sans Serif", sans-serif;
+	font-size: 14px;
+}
+
+body {
+	margin : 0em 0% 0em 0%;
+}
+
+body.contents {
+	background : #ffffff;
+	scrollbar-darkshadow-color : #9999DD;
+	scrollbar-face-color : #EAEAFF;
+	scrollbar-shadow-color : #CCCCFF;
+}
+
+body.tabs{
+	background : #102E51;
+	background-image : url(toolbar_bg.jpg);
+	background-repeat: repeat-x;
+
+}
+
+h1.headerbar {
+	background : #FFFFFF url('wiztopbar.jpg') no-repeat left;
+	border : 2px solid #CCCCCC;
+	color : #102E51;
+	height : 43px;
+	margin : 0em 0%;
+	padding-left : 25px;
+	padding-top : 15px;
+	text-align : left;	
+	width : 100%; font-style:normal; font-variant:normal; font-weight:normal; font-size:20px; font-family:Verdana, serif
+	
+}
+
+#tripane {
+	margin-left : 0%;
+	margin-right : 0%;
+	margin-top : 1em;
+	padding-left : 3%;
+	padding-right : 3%;
+}
+
+#main {
+	background : #FFFFFF url('O_opera_large.png') no-repeat center;
+	border-left : 1px solid #ffffff;
+	height : 100%;
+	margin-left : 0%;
+	margin-right : 0%;
+	margin-top : 0em;
+	margin-bottom: 0em;
+	padding-left : 3%;
+	padding-right : 3%;
+	padding-top : 0em;
+	padding-bottom: 1em
+}
+
+#tabs{
+	border-bottom : 9px solid #CCCCCC;
+	margin-top : 2px;
+	padding-left : 3px;
+}
+
+#tripane .heading1 {
+	border-bottom : none;
+	color : #333399;
+	font : bold 14px Verdana, serif;
+	padding-bottom : 1px;
+}
+   
+td.topleft, td.topright,td.bottomleft,td.bottomright {
+	font-family: "Verdana", verdana, arial, helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	color: #000000;
+	margin : 0;
+	padding : 4px 8px 5px 8px;
+	background : #ffffff;
+	background-image : url(toolbar_bg.jpg);
+	background-repeat: repeat-x;
+}
+
+td.topright {
+	border-bottom: 0px solid #ffffff;
+	border-right: 0px solid #ffffff;
+}
+td.topleft {
+	border-bottom: 0px solid #ffffff;
+}
+
+td.bottomright {
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+
+td.bottomleft {
+	border-top: 1px solid #ffffff;
+}
+
+a.toolbar:hover {
+	margin :0px;
+	border: 1px solid #333399;
+	padding : 3px 2px 0px 2px;
+	color : #333399;
+	text-decoration : none;
+}
+
+a.toolbar {
+	border : 0;
+	margin : 1px;
+	color : #333399;
+	text-decoration : none;
+	padding : 0px 2px 0px 2px;
+}
+
+span.toolbar {
+	color : #333399;
+	font-weight : bold;
+}
+
+img.toolbar {
+	padding : 0;
+	margin:0;
+	position : relative;
+	top : -3px;
+	left : 0;
+    vertical-align : top;	
+	margin-bottom : -3px;
+}
+
+table.toolbar {
+	margin: 0px;
+	border : none;
+	padding : 0px;
+	border-collapse : collapse;
+}
+
+#footer {
+	margin : 0;
+	padding : 8px 8px 8px 8px;
+	background : #333399;
+	border: 0;
+	border-right: 1px solid #333399;
+	font : 10px Verdana, sans-serif;
+	color : #ffffff;
+	text-align : left;
+}
+top

@@ -1,0 +1,103 @@
+a       {
+        text-decoration:underline;
+}
+
+
+.navbarOn {
+        line-height: normal;
+        margin-top: 6px;
+        margin-bottom: 1px;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        float: none;
+        clear: none;
+        height: auto;
+        white-space: normal;
+}
+
+
+.navbarOn :link {
+        color: #22aa22;
+        background-color: #ccffcc;
+}
+
+.navbarOn :active {
+        color: #22aa22;
+        background-color: #ccffcc;
+}
+
+
+.navbarOn :visited {
+        color: #22aa22;
+        background-color: #ccffcc;
+}
+
+.navbarOn :hover {
+        background-color: #CCCCCC;
+}
+
+.navbarOff   {display:none}
+
+.minitocitem {
+        font-family: "Tahoma", verdana, arial, helvetica, sans-serif;
+        color: #00aa22;
+        text-decoration:none;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        font-size: 10pt;
+        word-spacing: normal;
+        letter-spacing: normal;
+        vertical-align: baseline;
+        text-decoration: none;
+        text-transform: none;
+        line-height: normal;
+        margin-top: 6px;
+        margin-bottom: 1px;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 4px;
+        padding-right: 4px;
+        float: none;
+        clear: none;
+        text-align: left;
+        text-indent: 0cm;
+        width: 2cm;
+        height: auto;
+        white-space: normal;
+}
+
+
+
+.minitocitem:link {
+        text-decoration:none;
+        color: #00aa22;
+        background-color: #0000cc;
+}
+
+.minitocitem:active {
+        text-decoration:none;
+        color: #22aa22;
+        background-color: #0000cc;
+}
+
+
+.minitocitem:visited {
+        text-decoration:none;
+        color: #22aa22;
+        background-color: #0000cc;
+}
+
+.minitocitem:hover {
+        text-decoration:none;
+        background-color: #CCCCCC;
+}
+
+
+

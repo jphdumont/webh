@@ -1,0 +1,1401 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title> Adding In-Page Google Analytics to Track Specific Page Events </title>
+<meta name="Generator" content="Author-it">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="Keywords" content="Adding Analytics to Track Guest Membership Information for in Room Dining, Adding In-Page Google Analytics to Track Specific Page Events">
+<script type="text/javascript" src="dhtml_toc.js"></script>
+<script type="text/javascript" src="open_parent.js"></script>
+<STYLE type="text/css">
+#Layer1 {
+	position: absolute;
+	left: 13px;
+	top: 75px;
+	z-index: 1;
+	text-align:inherit;
+	width: inherit;
+}
+#Layer2 {
+	position: absolute;
+	left: 13px;
+	top: 200px;
+	width: auto;
+	height: auto;
+	z-index: 2;
+	vertical-align: bottom;
+}
+#Layer3 {
+	position:absolute;
+	left: 25px;
+	top: 12px;
+	width:45px;
+	height: auto;
+	margin-bottom:0px;
+	z-index: 0;
+}
+#Layer4 {
+	position:absolute;
+	left: 100px;
+	top: 12px;
+	width:52px;
+	height: auto;
+	margin-bottom:0px;
+	z-index: 0;
+}
+#Layer6 {
+	position:absolute;
+	top: 51px;
+	width:43px;
+	height: auto;
+	margin-bottom:0px;
+	right: 100px;
+	z-index: 1;
+}
+#Layer10 {
+	position:absolute;
+	top: 51px;
+	width:43px;
+	height: auto;
+	margin-bottom:0px;
+	right: 25px;
+	z-index: 1;
+}
+#Layer5 {
+	position:absolute;
+	left: 10px;
+	top: 3px;
+	width:207px;
+	height: auto;
+	margin-bottom:0px;
+	z-index: 0;
+}
+#Layer9 {
+	position:absolute;
+	top: 0px;
+	width:335px;
+	height: auto;
+	margin-bottom:0px;
+	z-index: 0;
+	right: 0px;
+}
+#Layer8 {
+	position:absolute;
+	left: 10px;
+	top: 35px;
+	width:100%;
+	height: 10px;
+	margin-bottom:15px;
+	z-index: 2;
+	background-color: #102E51;
+}
+#Layer11 {
+	position:absolute;
+	left: 13px;
+	top: 50px;
+	z-index: 1;
+}
+.footerbar {
+	left: 15px;
+	height: 14px;
+	background-color: #102E51;
+	width:100%;
+}
+.inthissection 
+{
+	font-family: Verdana, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	margin-left: 0pt;
+	text-align: left;
+	text-indent: 0.75cm;
+	width: 20cm;
+	height: auto;
+	white-space: normal;
+	list-style-type: disc;
+	list-style-position: outside;
+	white-space:normal;
+       }
+.bodyseealso 
+{display: block;
+        font-family: verdana, arial, helvetica, sans-serif;
+        font-size: 10pt;
+        color: #000000;
+        margin-top: 3pt;
+        margin-bottom: 3pt;
+        padding-top: 10pt;
+        padding-bottom: 10pt;
+        padding-left: 0pt;
+        padding-right: 0pt;
+		line-height:normal;
+        float: left;
+        clear: right;
+        text-align: left;
+        text-indent: 0cm;
+        width: 6cm;
+        height: auto;
+        white-space: normal;
+}   
+th {vertical-align: bottom;
+	text-align:center;
+	font-size: 10pt;
+}
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.breadcrumbs /*StyleList*/ {font-size: 11pt; font-family:Arial, Helvetica, sans-serif; color: #999999;}
+.breadcrumbs A:link {text-decoration: none; color: #999999;}
+.breadcrumbs A:active {text-decoration: none; color: #999999;}
+.breadcrumbs A:visited {text-decoration: none; color: #999999;}
+.breadcrumbs A:hover {text-decoration: underline; color: #102E51;}
+
+</style>
+</head>
+<link rel="stylesheet" href="stylesheet.css" type"text/css" />
+<link rel="stylesheet" href="stylesheet3.css"  type="text/css" />
+<link rel="stylesheet" href="printstylesheet.css" type"text/css" media="print" />
+
+<base target="BODY">
+
+<body onLoad="navBarSwitch();if (isTOCLoaded()) {expand('1441');expand('1303');highlight('2461_2')}" text="#000000" link="#000099" alink="#000099" vlink="#000099">
+<div id="Layer3"><a class="navbarOff" onClick="loadParent()" target="TOC" title="Opera Online Help Home"><img src="contents_button.jpg"></a></div>
+<div id="Layer4"><a class="navbarOff" onClick="loadSearch()" target="TOC" title="Search Opera Online Help"><img src="search_button.jpg"></a></div>
+<div class="breadcrumbs" id="Layer11">
+	<p class="breadcrumbs"><a class="breadcrumblink" href="mobile_overview.htm">Mobile Overview</a><span class="breadcrumbdelimiter"> &gt; </span><a class="breadcrumblink" href="site_manager_working_with_mobile_sites.htm">Configuring Mobile Sites</a><span class="breadcrumbactive"><span class="breadcrumbdelimiter"> &gt; </span>Adding In-Page Google Analytics to Track Specific Page Events</span></p></div>
+<div id="Layer6"><a onClick="emailPage()" target="_blank" class="navbarOn" title="Email Link to this Page"><img src="email_page_button.jpg" border="0"></a></div>
+<div id="Layer10"><a onClick="feedBack()" target="_blank" class="navbarOn" title="Send Feedback on Topic"><img src="feedback_button.jpg" border="0"></a></div>
+<!--<div id="Layer5"><a class="navbarOff" onClick="" target=""><img src="opera_9_darker_smaller.jpg"></a></div> -->
+<div id="Layer9"><a class="navbarOff" onClick="" target=""><img src="opera_online_help_clouds_smaller_used.jpg"></a></div>
+<div id="Layer8"></div>
+<div id="Layer1"><h1 id="t2461" class="heading1">Adding In-Page Google Analytics to Track Specific Page Events</h1>
+<h4 id="p823844" fragmentId="27299" class="heading4">Backend Settings for Site Analytics vs. Page Analytics </h4>
+<ul class="listbullet2"><li id="p823845" fragmentId="27300" class="listbullet2">Adding Analytics to the backend of the site tracks the site globally. </li><li id="p823846" fragmentId="27301" class="listbullet2">Adding Analytics to the page tracks the page level events.</li></ul><p id="p823847" fragmentId="22274" class="bodytext">To use Analytics to track your entire site or to apply the tracking code per page paste your Analytics code snippet into the <strong class="specialbold">Backend Settings &gt; Analytics</strong> for the site. To access this feature in <strong class="specialbold">Site Manager</strong> go to <strong class="specialbold">Manage Sites</strong> and select the <strong class="specialbold">Backend Settings</strong> for a site. Then select the Analytics tab and the code snippet from your Analytics provider. <br>See Also: <a id="h2358" class="" title="Add Analytics Tracking Code to the Site" href="analytics_487_webhotel_site_manager.htm" target="_self">Adding Analytics</a> (for the entire site or per page)</p>
+<h4 id="p823848" fragmentId="22277" class="heading4">Overview of the Adding In-Page Analytics:</h4>
+<ol class="listnumber2"><li id="p823849" fragmentId="16344" class="listnumber2">Select the <strong class="specialbold">Add Provider</strong> button to add the provider. </li><li id="p823850" fragmentId="16345" class="listnumber2">Select <strong class="specialbold">Edit </strong>to add the code snippet from the Analytics Provider</li><li id="p823851" fragmentId="22259" class="listnumber2">Add the Analytics provider's code snippet with the Tracking ID to the specific Page <strong class="specialbold">Analytics </strong>tab. </li><li id="p823852" fragmentId="16832" class="listnumber2">Add the additional <strong class="specialbold">code snippet</strong> to include the events for the page using the <strong class="specialbold">data-tag-attributes</strong>.</li><li id="p823853" fragmentId="16348" class="listnumber2">In <strong class="specialbold">Google Analytics </strong>activate the <strong class="specialbold">in-page tracking </strong>in the reporting.</li></ol><h4 id="p823854" fragmentId="16366" class="heading4">Step 1: Add an Analytics Provider to the Site</h4>
+<h4 id="p823855" fragmentId="16713" class="heading4">To Use Analytics to track specific data elements on a Page using In-Page Analytics</h4>
+<p id="p823856" fragmentId="22264" class="bodytext">In-Page Analytics works by tracking the data types on the page. To add analytics for specific page events, for any provider that supports event tracking by link or form submit on a page is called In-Page Analytics. </p>
+<p id="p823857" fragmentId="22265" class="bodytext">To access this feature use the page specific analytics tab:</p>
+<ol class="listnumber2"><li id="p823858" fragmentId="22266" class="listnumber2">In Site Manager go to <strong class="specialbold">Content</strong> and select <strong class="specialbold">Sections &amp; Pages </strong>from the left navigation. </li><li id="p823859" fragmentId="22269" class="listnumber2">Select the Section of pages, and then the individual page to <strong class="specialbold">Edit</strong>.</li><li id="p823860" fragmentId="22270" class="listnumber2">Then on the <strong class="specialbold">Analytics</strong> tab for that page add the analytics code, this applies to the individual page. </li></ol><p id="p823861" fragmentId="16829" class="note"><strong class="specialbold">Note.</strong> What is specified for In-Page Analytics will over ride what is in the Backend (global) Settings. In this example, Google Analytics is demonstrated. If your provider supports In-Page Analytics then this featured can be used for tracking the In-Page data types, with slight code variations depending on your provider.</p>
+<p id="p823862" fragmentId="98" class="listcontinue"><img id="f2464" src="2464.png" alt="" height="349" width="725" vspace="0" hspace="0" align="bottom" border="0"></p>
+<p id="p823863" fragmentId="16340" class="listcontinue"><strong class="specialbold">Add Provider. </strong>Select to add a provider name to the list. Enter the provider name and save.</p>
+<p id="p823864" fragmentId="16341" class="listcontinue"><strong class="specialbold">Configuration. </strong>Select the on or off radio button to turn on or off the tracking code setup for this provider.</p>
+<p id="p823865" fragmentId="16342" class="listcontinue"><strong class="specialbold">Edit.</strong> Select to edit the icon to add the code snippet from the Analytics provider and define the data-tag-attribute to track a data element on a page. The tracking code entered here will override the Backend Settings Analytics. </p>
+<p id="p823866" fragmentId="16167" class="listcontinue"><strong class="specialbold">Save Settings.</strong> Select to save settings.</p>
+<h4 id="p823867" fragmentId="22260" class="heading4">Step 2: Add the Tracking Code Snippet from your Provider</h4>
+<p id="p823868" fragmentId="16376" class="note"><strong class="specialbold">Note. </strong>This is just an example use the actual code snippet from your Analytics provider.</p>
+<p id="p823869" fragmentId="98" class="listcontinue"><img id="f2472" src="2472.png" alt="" height="269" width="932" vspace="0" hspace="0" align="bottom" border="0"></p>
+<h4 id="p823870" fragmentId="16368" class="heading4">Step 3: Then Add the Java Script with the data-tag-attribute to track on the page</h4>
+<p id="p823871" fragmentId="22272" class="bodytext">In-Page Analytics works by tracking the data types on the page. Replace the <em class="emphasis">data-tag-attribute, </em>(in the code snippet below) with the specific variable you want<em class="emphasis"> </em>to track. The complete list of data-tag-attributes for webHotel and Mobile is listed below.</p>
+<p id="p823872" fragmentId="98" class="listcontinue"><img id="f2471" src="2471.png" alt="" height="62" width="702" vspace="0" hspace="0" align="bottom" border="0"></p>
+<h4 id="p823873" fragmentId="16369" class="heading4">Step 4: In your Google Analytics Account Enable enhanced link attribution in the reports</h4>
+<p id="p823874" fragmentId="16307" class="bodytext">After you update your tracking code for in page analytics, the next step is to enable enhanced link attribution in your property settings:</p>
+<p id="p823875" fragmentId="16308" class="bodytext">In the Google Analytics account:</p>
+<ol class="listnumber2"><li id="p823876" fragmentId="16833" class="listnumber2">Select <strong class="specialbold">Admin</strong> at the top of any Google Analytics page.</li><li id="p823877" fragmentId="16328" class="listnumber2">Navigate to the property for which you want to use enhanced link attribution, and click the <strong class="specialbold">Property Settings </strong>tab.</li><li id="p823878" fragmentId="16329" class="listnumber2">In the <strong class="specialbold">In-Page Analytics</strong> section, select the <strong class="specialbold">Use enhanced link attribution </strong>option.</li><li id="p823879" fragmentId="15026" class="listnumber2">Select <strong class="specialbold">Apply</strong>.</li></ol><h4 id="p823880" fragmentId="16373" class="heading4">Step 5: View In-Page Analytics in the Google Reports </h4>
+<p id="p823881" fragmentId="16361" class="bodytext">In the Google Analytics account you can access the in page analytics reporting in 2 ways:</p>
+<ol class="listnumber2"><li id="p823882" fragmentId="16374" class="listnumber2">Select<strong class="specialbold"> Reporting</strong> from the top of the page, then on the left navigation select<strong class="specialbold"> Content</strong>, click <strong class="specialbold">In-Page Analytics</strong>. This option opens the report on the page you identified in your profile settings.</li><li id="p823883" fragmentId="16363" class="listnumber2">Or on the <strong class="specialbold">Pages report </strong>select (<strong class="specialbold">Standard Reporting</strong> &gt; <strong class="specialbold">Content</strong> &gt; <strong class="specialbold">Site Content</strong> &gt; <strong class="specialbold">Pages</strong>), when you drill in to a specific page, select the<strong class="specialbold"> In-Page</strong> tab. This option opens the report for that page.</li><li id="p823884" fragmentId="16834" class="listnumber2">Once the page is open in Google Analytics select a button on the page and the page refreshes with the tracking information for that button (data-tag-attribute).</li></ol><h3 id="p823885" fragmentId="16375" class="heading3">Data-Tag-Attributes for webHotel or Mobile Pages</h3>
+<p id="p823886" fragmentId="16714" class="bodytext">The Site Manager Administrator can add analytics based on the data tag attributes for each page and element listed below. </p>
+<p id="p823887" fragmentId="22278" class="note"><strong class="specialbold">Note. </strong>Not all of these .jsp pages are accessible in the Section &amp; Pages area of Site Manager. </p>
+<p id="p823888" fragmentId="22279" class="note"><strong class="specialbold">How it works:</strong> If the data element listed below exists on the booking path then use the analytics code on the related page and the data element will be tracked. For example, for the item_package.jsp which is a Packages Component, (that only exists on booking path pages Step 2: Book Room and step 3) so if the Analytics code is in place on the Step 2 booking path page then the analytics script tracks it, and the events will be submitted to Analytics provider.</p>
+<table class="tableintopic" width="1191" cellpadding="2" cellspacing="0" border="0" style="border-collapse:collapse">
+<tr align="left" valign="top">
+<td bgcolor="#E3E3E3" width="352"><p id="p823892" fragmentId="22273" class="bold">Webpage </p>
+</td>
+<td bgcolor="#E3E3E3" width="285"><p id="p823894" fragmentId="5263" class="bold">Name</p>
+</td>
+<td bgcolor="#E3E3E3" width="554"><p id="p823896" fragmentId="15994" class="bold">data-tag-attribute</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823899" fragmentId="15969" class="bodytext">Not_found_body.jsp</p>
+</td>
+<td width="285"><p id="p823901" fragmentId="15970" class="bodytext">home page link</p>
+</td>
+<td width="554"><p id="p823903" fragmentId="15971" class="bodytext">wh-home-page-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823906" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823908" fragmentId="15972" class="bodytext">site map link</p>
+</td>
+<td width="554"><p id="p823910" fragmentId="15973" class="bodytext">wh-sitemap-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823913" fragmentId="15974" class="bodytext">Site_not_available.jsp</p>
+</td>
+<td width="285"><p id="p823915" fragmentId="15975" class="bodytext">Home page link</p>
+</td>
+<td width="554"><p id="p823917" fragmentId="15976" class="bodytext">wh-homepage-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823920" fragmentId="15978" class="bodytext">hotelInformation.jsp</p>
+</td>
+<td width="285"><p id="p823922" fragmentId="15979" class="bodytext">Sign In link</p>
+</td>
+<td width="554"><p id="p823924" fragmentId="15980" class="bodytext">wh-sign-in-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823927" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823929" fragmentId="15981" class="bodytext">Sign Out link</p>
+</td>
+<td width="554"><p id="p823931" fragmentId="15982" class="bodytext">wh-sign-out-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823934" fragmentId="15983" class="bodytext">Reservation_next_steps.jsp</p>
+</td>
+<td width="285"><p id="p823936" fragmentId="15984" class="bodytext">Modify Or Cancel Reservation</p>
+</td>
+<td width="554"><p id="p823938" fragmentId="15989" class="bodytext">wh-modify-or-cancel-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823941" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823943" fragmentId="15985" class="bodytext">Home Page link</p>
+</td>
+<td width="554"><p id="p823945" fragmentId="15971" class="bodytext">wh-home-page-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823948" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823950" fragmentId="15986" class="bodytext">My Account Profile</p>
+</td>
+<td width="554"><p id="p823952" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823955" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823957" fragmentId="15987" class="bodytext">Book Another Room button</p>
+</td>
+<td width="554"><p id="p823959" fragmentId="15991" class="bodytext">wh-book-another-room-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823962" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823964" fragmentId="15988" class="bodytext">Book Another Hotel button</p>
+</td>
+<td width="554"><p id="p823966" fragmentId="15992" class="bodytext">wh-book-another-hotel-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823969" fragmentId="15995" class="bodytext">Footer_include.jsp</p>
+</td>
+<td width="285"><p id="p823971" fragmentId="8599" class="bodytext">Contact Us</p>
+</td>
+<td width="554"><p id="p823973" fragmentId="16000" class="bodytext">wh-contact-us-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823976" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823978" fragmentId="15996" class="bodytext">Privacy Policy</p>
+</td>
+<td width="554"><p id="p823980" fragmentId="16001" class="bodytext">wh-privacy-policy-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823983" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823985" fragmentId="15997" class="bodytext">Terms &amp; Conditions</p>
+</td>
+<td width="554"><p id="p823987" fragmentId="16002" class="bodytext">wh-terms-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823990" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823992" fragmentId="7750" class="bodytext">About</p>
+</td>
+<td width="554"><p id="p823994" fragmentId="16003" class="bodytext">wh-about-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p823997" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p823999" fragmentId="15998" class="bodytext">Location &amp; Directions</p>
+</td>
+<td width="554"><p id="p824001" fragmentId="16004" class="bodytext">wh-location-attraction-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824004" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824006" fragmentId="8602" class="bodytext">Site Map</p>
+</td>
+<td width="554"><p id="p824008" fragmentId="15973" class="bodytext">wh-sitemap-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824011" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824013" fragmentId="15999" class="bodytext">Generic Link Name (the name would be dynamic as defined in site manager navigation links)</p>
+</td>
+<td width="554"><p id="p824015" fragmentId="16005" class="bodytext">wh-(Generic Link Name)-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824018" fragmentId="16006" class="bodytext">Header_include.jsp</p>
+</td>
+<td width="285"><p id="p824020" fragmentId="16007" class="bodytext">Logo Link</p>
+</td>
+<td width="554"><p id="p824022" fragmentId="15976" class="bodytext">wh-homepage-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824025" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824027" fragmentId="16008" class="bodytext">Member Welcome Link</p>
+</td>
+<td width="554"><p id="p824029" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824032" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824034" fragmentId="16009" class="bodytext">FeedBack link</p>
+</td>
+<td width="554"><p id="p824036" fragmentId="16014" class="bodytext">wh-feedback-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824039" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824041" fragmentId="16010" class="bodytext">View Reservation link</p>
+</td>
+<td width="554"><p id="p824043" fragmentId="16015" class="bodytext">wh-view-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824046" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824048" fragmentId="16011" class="bodytext">Guest Rooms link</p>
+</td>
+<td width="554"><p id="p824050" fragmentId="16016" class="bodytext">wh-guest-rooms-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824053" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824055" fragmentId="16012" class="bodytext">Packages link</p>
+</td>
+<td width="554"><p id="p824057" fragmentId="16017" class="bodytext">wh-packages-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824060" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824062" fragmentId="16013" class="bodytext">Amenities link</p>
+</td>
+<td width="554"><p id="p824064" fragmentId="16018" class="bodytext">wh-amenities-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824067" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824069" fragmentId="15999" class="bodytext">Generic Link Name (the name would be dynamic as defined in site manager navigation links)</p>
+</td>
+<td width="554"><p id="p824071" fragmentId="16005" class="bodytext">wh-(Generic Link Name)-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824074" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824076" fragmentId="15981" class="bodytext">Sign Out link</p>
+</td>
+<td width="554"><p id="p824078" fragmentId="15982" class="bodytext">wh-sign-out-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824081" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824083" fragmentId="15979" class="bodytext">Sign In link</p>
+</td>
+<td width="554"><p id="p824085" fragmentId="15980" class="bodytext">wh-sign-in-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824088" fragmentId="16019" class="bodytext">Logo_include.jsp</p>
+</td>
+<td width="285"><p id="p824090" fragmentId="16020" class="bodytext">Logo link</p>
+</td>
+<td width="554"><p id="p824092" fragmentId="15976" class="bodytext">wh-homepage-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824095" fragmentId="16021" class="bodytext">My_account_footer.jsp</p>
+</td>
+<td width="285"><p id="p824097" fragmentId="16022" class="bodytext">My Account Main Dashboard link</p>
+</td>
+<td width="554"><p id="p824099" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824102" fragmentId="16023" class="bodytext">My_account_header.jsp</p>
+</td>
+<td width="285"><p id="p824104" fragmentId="16022" class="bodytext">My Account Main Dashboard link</p>
+</td>
+<td width="554"><p id="p824106" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824109" fragmentId="16024" class="bodytext">My_account_menu.jsp</p>
+</td>
+<td width="285"><p id="p824111" fragmentId="16025" class="bodytext">Manage User/Password link</p>
+</td>
+<td width="554"><p id="p824113" fragmentId="16026" class="bodytext">wh-my-password-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824116" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824118" fragmentId="16027" class="bodytext">Manage My Profile link</p>
+</td>
+<td width="554"><p id="p824120" fragmentId="16028" class="bodytext">wh-my-profile-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824123" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824125" fragmentId="16029" class="bodytext">View My Reservations link</p>
+</td>
+<td width="554"><p id="p824127" fragmentId="16030" class="bodytext">wh-my-reservations-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824130" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824132" fragmentId="16031" class="bodytext">My Preferences link</p>
+</td>
+<td width="554"><p id="p824134" fragmentId="16032" class="bodytext">wh-my-preferences-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824137" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824139" fragmentId="16033" class="bodytext">My Membership link</p>
+</td>
+<td width="554"><p id="p824141" fragmentId="16034" class="bodytext">wh-my-membership-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824144" fragmentId="16035" class="bodytext">My_account_signin.jsp</p>
+</td>
+<td width="285"><p id="p824146" fragmentId="16036" class="bodytext">Contact Us link</p>
+</td>
+<td width="554"><p id="p824148" fragmentId="16000" class="bodytext">wh-contact-us-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824151" fragmentId="16037" class="bodytext">My_account_details.jsp</p>
+</td>
+<td width="285"><p id="p824153" fragmentId="16038" class="bodytext">Auto Enroll Membership button</p>
+</td>
+<td width="554"><p id="p824155" fragmentId="16039" class="bodytext">wh-auto-enroll-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824158" fragmentId="16040" class="bodytext">User_account_help.jsp</p>
+</td>
+<td width="285"><p id="p824160" fragmentId="16041" class="bodytext">Retrieve Reservation Dialog Yes</p>
+</td>
+<td width="554"><p id="p824162" fragmentId="16042" class="bodytext">wh-retrieve-yes-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824165" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824167" fragmentId="16043" class="bodytext">Retrieve Reservation Dialog No</p>
+</td>
+<td width="554"><p id="p824169" fragmentId="16044" class="bodytext">wh-retrieve-no-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824172" fragmentId="16045" class="bodytext">Search_regional_results_Empty.jsp</p>
+</td>
+<td width="285"><p id="p824174" fragmentId="16046" class="bodytext">Modify Your Search link</p>
+</td>
+<td width="554"><p id="p824176" fragmentId="16047" class="bodytext">wh-modify-your-search-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824179" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824181" fragmentId="16048" class="bodytext">Retrieve Reservation link</p>
+</td>
+<td width="554"><p id="p824183" fragmentId="16049" class="bodytext">wh-retrieve-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824186" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824188" fragmentId="16022" class="bodytext">My Account Main Dashboard link</p>
+</td>
+<td width="554"><p id="p824190" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824193" fragmentId="16050" class="bodytext">Search_room_results_empty.jsp</p>
+</td>
+<td width="285"><p id="p824195" fragmentId="16046" class="bodytext">Modify Your Search link</p>
+</td>
+<td width="554"><p id="p824197" fragmentId="16047" class="bodytext">wh-modify-your-search-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824200" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824202" fragmentId="16048" class="bodytext">Retrieve Reservation link</p>
+</td>
+<td width="554"><p id="p824204" fragmentId="16049" class="bodytext">wh-retrieve-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824207" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824209" fragmentId="16022" class="bodytext">My Account Main Dashboard link</p>
+</td>
+<td width="554"><p id="p824211" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824214" fragmentId="16051" class="bodytext">Automcomplete_search_include.jsp</p>
+</td>
+<td width="285"><p id="p824216" fragmentId="16052" class="bodytext">More Options link</p>
+</td>
+<td width="554"><p id="p824218" fragmentId="16053" class="bodytext">wh-more-options-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824221" fragmentId="16054" class="bodytext">Calendar_date_slider.jsp</p>
+</td>
+<td width="285"><p id="p824223" fragmentId="16055" class="bodytext">Alternate Range link</p>
+</td>
+<td width="554"><p id="p824225" fragmentId="16056" class="bodytext">wh-alternate-dates-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824228" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824230" fragmentId="16057" class="bodytext">Previous Day</p>
+</td>
+<td width="554"><p id="p824232" fragmentId="16058" class="bodytext">wh-calendar-prev</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824235" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824237" fragmentId="16059" class="bodytext">Next Day</p>
+</td>
+<td width="554"><p id="p824239" fragmentId="16060" class="bodytext">wh-calendar-next</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824242" fragmentId="16061" class="bodytext">Calendar_search_include.jsp</p>
+</td>
+<td width="285"><p id="p824244" fragmentId="16052" class="bodytext">More Options link</p>
+</td>
+<td width="554"><p id="p824246" fragmentId="16053" class="bodytext">wh-more-options-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824249" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824251" fragmentId="16062" class="bodytext">Previous Month</p>
+</td>
+<td width="554"><p id="p824253" fragmentId="16058" class="bodytext">wh-calendar-prev</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824256" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824258" fragmentId="16063" class="bodytext">Next Month</p>
+</td>
+<td width="554"><p id="p824260" fragmentId="16060" class="bodytext">wh-calendar-next</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824263" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824265" fragmentId="16064" class="bodytext">I know My Dates button</p>
+</td>
+<td width="554"><p id="p824267" fragmentId="16065" class="bodytext">wh-check-availability-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824270" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824272" fragmentId="16066" class="bodytext">Just Shopping</p>
+</td>
+<td width="554"><p id="p824274" fragmentId="16067" class="bodytext">wh-check-calendar-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824277" fragmentId="16075" class="bodytext">Confirmation_body_user_create_account.jsp</p>
+</td>
+<td width="285"><p id="p824279" fragmentId="16076" class="bodytext">Create Account link</p>
+</td>
+<td width="554"><p id="p824281" fragmentId="16077" class="bodytext">wh-conf-create-account-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824284" fragmentId="16078" class="bodytext">Descr_amenity_policy.jsp</p>
+</td>
+<td width="285"><p id="p824286" fragmentId="16079" class="bodytext">Description Tab</p>
+</td>
+<td width="554"><p id="p824288" fragmentId="16080" class="bodytext">wh-desc-tab-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824291" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824293" fragmentId="16081" class="bodytext">Amenities Tab</p>
+</td>
+<td width="554"><p id="p824295" fragmentId="16082" class="bodytext">wh-amenities-tab-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824298" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824300" fragmentId="16083" class="bodytext">Policy Tab</p>
+</td>
+<td width="554"><p id="p824302" fragmentId="16084" class="bodytext">wh-policy-tab-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824305" fragmentId="16085" class="bodytext">DOM_Window.jsp</p>
+</td>
+<td width="285"><p id="p824307" fragmentId="16086" class="bodytext">Close link</p>
+</td>
+<td width="554"><p id="p824309" fragmentId="16087" class="bodytext">wh-close-win-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824312" fragmentId="16088" class="bodytext">Group_user_login.jsp</p>
+</td>
+<td width="285"><p id="p824314" fragmentId="16089" class="bodytext">Forgot your username?</p>
+</td>
+<td width="554"><p id="p824316" fragmentId="16092" class="bodytext">wh-forgot-user-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824319" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824321" fragmentId="16090" class="bodytext">Forgot your password?</p>
+</td>
+<td width="554"><p id="p824323" fragmentId="16093" class="bodytext">wh-forgot-password-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824326" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824328" fragmentId="16091" class="bodytext">Sign In</p>
+</td>
+<td width="554"><p id="p824330" fragmentId="16094" class="bodytext">wh-group-sign-in-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824333" fragmentId="16172" class="bodytext">Group_contact.jsp</p>
+</td>
+<td width="285"><p id="p824335" fragmentId="16173" class="bodytext">Submit button</p>
+</td>
+<td width="554"><p id="p824337" fragmentId="16174" class="bodytext">wh-email-signup-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824340" fragmentId="16175" class="bodytext">Guest_info_add_payment.jsp</p>
+</td>
+<td width="285"><p id="p824342" fragmentId="16176" class="bodytext">Payment Policy link</p>
+</td>
+<td width="554"><p id="p824344" fragmentId="16177" class="bodytext">wh-payment-policy-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824347" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824349" fragmentId="16178" class="bodytext">PayPal logo link</p>
+</td>
+<td width="554"><p id="p824351" fragmentId="16179" class="bodytext">wh-paypal-logo-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824354" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824356" fragmentId="16180" class="bodytext">Terms &amp; Condition document link</p>
+</td>
+<td width="554"><p id="p824358" fragmentId="16002" class="bodytext">wh-terms-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824361" fragmentId="16181" class="bodytext">Guest_info_contact_details.jsp</p>
+<p id="p824362" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="285"><p id="p824364" fragmentId="16182" class="bodytext">Email policy Help link</p>
+</td>
+<td width="554"><p id="p824366" fragmentId="16183" class="bodytext">wh-help-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824369" fragmentId="16184" class="bodytext">Guest_info_your_reservation.jsp</p>
+</td>
+<td width="285"><p id="p824371" fragmentId="16185" class="bodytext">View More link</p>
+<p id="p824372" fragmentId="16186" class="bodytext">View Less link</p>
+<p id="p824373" fragmentId="16187" class="bodytext">Item Posting Date link</p>
+<p id="p824374" fragmentId="16188" class="bodytext">Back/Modify Search link</p>
+</td>
+<td width="554"><p id="p824376" fragmentId="16189" class="bodytext">wh-more-text-click</p>
+<p id="p824377" fragmentId="16190" class="bodytext">wh-less-text-click</p>
+<p id="p824378" fragmentId="16191" class="bodytext">wh-posting-date-click</p>
+<p id="p824379" fragmentId="16192" class="bodytext">wh-modify-search-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824382" fragmentId="16193" class="bodytext">Guest_info_form.jsp</p>
+</td>
+<td width="285"><p id="p824384" fragmentId="16194" class="bodytext">Book Reservation button</p>
+</td>
+<td width="554"><p id="p824386" fragmentId="16195" class="bodytext">wh-book-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824389" fragmentId="16196" class="bodytext">Guest_info_modify_form.jsp</p>
+</td>
+<td width="285"><p id="p824391" fragmentId="16197" class="bodytext">Save Changes button</p>
+<p id="p824392" fragmentId="16198" class="bodytext">Cancel Reservation button</p>
+<p id="p824393" fragmentId="16199" class="bodytext">Do not change my reservation button</p>
+<p id="p824394" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="554"><p id="p824396" fragmentId="16200" class="bodytext">wh-save-reservation-click</p>
+<p id="p824397" fragmentId="16201" class="bodytext">wh-cancel-reservation-click</p>
+<p id="p824398" fragmentId="16202" class="bodytext">wh-return-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824401" fragmentId="16203" class="bodytext">Guest_info_memberships.jsp</p>
+</td>
+<td width="285"><p id="p824403" fragmentId="16204" class="bodytext">Remove Membership button</p>
+<p id="p824404" fragmentId="16205" class="bodytext">Add Membership button</p>
+</td>
+<td width="554"><p id="p824406" fragmentId="16206" class="bodytext">wh-remove-membership-click</p>
+<p id="p824407" fragmentId="16207" class="bodytext">wh-add-membership-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824410" fragmentId="16208" class="bodytext">Modify_reservation_body_header.jsp</p>
+</td>
+<td width="285"><p id="p824412" fragmentId="16199" class="bodytext">Do not change my reservation button</p>
+</td>
+<td width="554"><p id="p824414" fragmentId="16202" class="bodytext">wh-return-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824417" fragmentId="16209" class="bodytext">Horizontal_search_include.jsp</p>
+</td>
+<td width="285"><p id="p824419" fragmentId="16052" class="bodytext">More Options link</p>
+</td>
+<td width="554"><p id="p824421" fragmentId="16053" class="bodytext">wh-more-options-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824424" fragmentId="16210" class="bodytext">Hotel_grid_results.jsp</p>
+</td>
+<td width="285"><p id="p824426" fragmentId="16211" class="bodytext">Directions link</p>
+<p id="p824427" fragmentId="16212" class="bodytext">Address link</p>
+</td>
+<td width="554"><p id="p824429" fragmentId="16213" class="bodytext">wh-hotel-directions-click</p>
+<p id="p824430" fragmentId="16214" class="bodytext">wh-hotel-address-click</p>
+<p id="p824431" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824434" fragmentId="16215" class="bodytext">Hotel_list_results.jsp</p>
+</td>
+<td width="285"><p id="p824436" fragmentId="16216" class="bodytext">Map Icon link</p>
+<p id="p824437" fragmentId="16217" class="bodytext">Book Now</p>
+</td>
+<td width="554"><p id="p824439" fragmentId="16218" class="bodytext">wh-map-click</p>
+<p id="p824440" fragmentId="16219" class="bodytext">wh-book-now-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824443" fragmentId="16220" class="bodytext">Item_package.jsp</p>
+</td>
+<td width="285"><p id="p824445" fragmentId="16221" class="bodytext">Add To Reservation link</p>
+</td>
+<td width="554"><p id="p824447" fragmentId="16222" class="bodytext">wh-item-add-to-reservation</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824450" fragmentId="16223" class="bodytext">Nav_bar.jsp</p>
+</td>
+<td width="285"><p id="p824452" fragmentId="16224" class="bodytext">Step Search Rooms</p>
+<p id="p824453" fragmentId="16225" class="bodytext">Step Search Hotels</p>
+<p id="p824454" fragmentId="16226" class="bodytext">Step Book a Room</p>
+<p id="p824455" fragmentId="16227" class="bodytext">Step Packages</p>
+<p id="p824456" fragmentId="16228" class="bodytext">Step Guest Details</p>
+<p id="p824457" fragmentId="16229" class="bodytext">Step Confirmation</p>
+</td>
+<td width="554"><p id="p824459" fragmentId="16230" class="bodytext">wh-step-search-click</p>
+<p id="p824460" fragmentId="16231" class="bodytext">wh-step-search-hotels-click</p>
+<p id="p824461" fragmentId="16232" class="bodytext">wh-step-book-room-click</p>
+<p id="p824462" fragmentId="16233" class="bodytext">wh-step-packages-click</p>
+<p id="p824463" fragmentId="16234" class="bodytext">wh-step-guest-details-click</p>
+<p id="p824464" fragmentId="16235" class="bodytext">wh-step-confirmation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824467" fragmentId="16236" class="bodytext">Page_header.jsp</p>
+</td>
+<td width="285"><p id="p824469" fragmentId="16237" class="bodytext">Do Not Change My reservation button</p>
+</td>
+<td width="554"><p id="p824471" fragmentId="16202" class="bodytext">wh-return-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824474" fragmentId="16238" class="bodytext">Package_info_include.jsp</p>
+</td>
+<td width="285"><p id="p824476" fragmentId="16239" class="bodytext">View Package Details</p>
+<p id="p824477" fragmentId="16240" class="bodytext">Continue button</p>
+</td>
+<td width="554"><p id="p824479" fragmentId="16241" class="bodytext">wh-package-detail-click</p>
+<p id="p824480" fragmentId="16242" class="bodytext">wh-package-continue-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824483" fragmentId="16243" class="bodytext">Reservation_cancel.jsp</p>
+</td>
+<td width="285"><p id="p824485" fragmentId="16244" class="bodytext">Terms  &amp; Conditions document link</p>
+<p id="p824486" fragmentId="16086" class="bodytext">Close link</p>
+<p id="p824487" fragmentId="16245" class="bodytext">Yes</p>
+<p id="p824488" fragmentId="16246" class="bodytext">No</p>
+</td>
+<td width="554"><p id="p824490" fragmentId="16002" class="bodytext">wh-terms-click</p>
+<p id="p824491" fragmentId="16087" class="bodytext">wh-close-win-click</p>
+<p id="p824492" fragmentId="16247" class="bodytext">wh-cancel-reservation-yes-click</p>
+<p id="p824493" fragmentId="16248" class="bodytext">wh-cancel-reservation-no-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824496" fragmentId="16249" class="bodytext">Reservation_detail_header.jsp</p>
+</td>
+<td width="285"><p id="p824498" fragmentId="16261" class="bodytext">iCal link</p>
+<p id="p824499" fragmentId="16262" class="bodytext">Check In</p>
+<p id="p824500" fragmentId="16263" class="bodytext">PreCheck In</p>
+<p id="p824501" fragmentId="16264" class="bodytext">My Account Main Page link</p>
+<p id="p824502" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="554"><p id="p824504" fragmentId="16265" class="bodytext">wh-ical-click</p>
+<p id="p824505" fragmentId="16266" class="bodytext">wh-check-in-click</p>
+<p id="p824506" fragmentId="16267" class="bodytext">wh-precheck-in-click</p>
+<p id="p824507" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824510" fragmentId="16268" class="bodytext">Reservation_detail_header_buttons.jsp</p>
+</td>
+<td width="285"><p id="p824512" fragmentId="16269" class="bodytext">Term And Conditions</p>
+<p id="p824513" fragmentId="16270" class="bodytext">Modify Reservation button</p>
+<p id="p824514" fragmentId="16198" class="bodytext">Cancel Reservation button</p>
+<p id="p824515" fragmentId="16271" class="bodytext">Send Confirmation</p>
+<p id="p824516" fragmentId="1" class="bodytext">&nbsp;</p>
+<p id="p824517" fragmentId="15987" class="bodytext">Book Another Room button</p>
+<p id="p824518" fragmentId="15988" class="bodytext">Book Another Hotel button</p>
+</td>
+<td width="554"><p id="p824520" fragmentId="16002" class="bodytext">wh-terms-click</p>
+<p id="p824521" fragmentId="16272" class="bodytext">wh-modify-reservation-click</p>
+<p id="p824522" fragmentId="16201" class="bodytext">wh-cancel-reservation-click</p>
+<p id="p824523" fragmentId="16273" class="bodytext">wh-send-reservation-click</p>
+<p id="p824524" fragmentId="15991" class="bodytext">wh-book-another-room-click</p>
+<p id="p824525" fragmentId="15992" class="bodytext">wh-book-another-hotel-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824528" fragmentId="16274" class="bodytext">Reservation_detail_hotel_info.jsp</p>
+</td>
+<td width="285"><p id="p824530" fragmentId="16275" class="bodytext">Map link</p>
+</td>
+<td width="554"><p id="p824532" fragmentId="16218" class="bodytext">wh-map-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824535" fragmentId="16276" class="bodytext">Reservation_detail_summary.jsp</p>
+</td>
+<td width="285"><p id="p824537" fragmentId="16277" class="bodytext">Daily Rate Posting Date</p>
+</td>
+<td width="554"><p id="p824539" fragmentId="16191" class="bodytext">wh-posting-date-click</p>
+<p id="p824540" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824543" fragmentId="16278" class="bodytext">Reservation_summary.jsp</p>
+</td>
+<td width="285"><p id="p824545" fragmentId="16279" class="bodytext">View More</p>
+<p id="p824546" fragmentId="16280" class="bodytext">View Less</p>
+<p id="p824547" fragmentId="16281" class="bodytext">Daily Rate Posting date</p>
+</td>
+<td width="554"><p id="p824549" fragmentId="16282" class="bodytext">wh-view-more-click</p>
+<p id="p824550" fragmentId="16283" class="bodytext">wh-view-less-click</p>
+<p id="p824551" fragmentId="16191" class="bodytext">wh-posting-date-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824554" fragmentId="16284" class="bodytext">Retrieve_reservations.jsp</p>
+</td>
+<td width="285"><p id="p824556" fragmentId="16285" class="bodytext">Retrieve My Reservations link</p>
+</td>
+<td width="554"><p id="p824558" fragmentId="16286" class="bodytext">wh-retrieve-reservation</p>
+<p id="p824559" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824562" fragmentId="16287" class="bodytext">Available_offers.jsp</p>
+</td>
+<td width="285"><p id="p824564" fragmentId="16288" class="bodytext">Upgrade Now button</p>
+</td>
+<td width="554"><p id="p824566" fragmentId="16289" class="bodytext">wh-upgrade-now-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824569" fragmentId="16562" class="bodytext">Room_upgrade.jsp</p>
+</td>
+<td width="285"><p id="p824571" fragmentId="16288" class="bodytext">Upgrade Now button</p>
+</td>
+<td width="554"><p id="p824573" fragmentId="16289" class="bodytext">wh-upgrade-now-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824576" fragmentId="16563" class="bodytext">Room_Details.jsp</p>
+</td>
+<td width="285"><p id="p824578" fragmentId="16564" class="bodytext">Gallery Previous link</p>
+<p id="p824579" fragmentId="16565" class="bodytext">Gallery Next link</p>
+<p id="p824580" fragmentId="16566" class="bodytext">Posting date link</p>
+<p id="p824581" fragmentId="16567" class="bodytext">Book Room</p>
+</td>
+<td width="554"><p id="p824583" fragmentId="16568" class="bodytext">wh-gallery-prev-click</p>
+<p id="p824584" fragmentId="16569" class="bodytext">wh-gallery-next-click</p>
+<p id="p824585" fragmentId="16191" class="bodytext">wh-posting-date-click</p>
+<p id="p824586" fragmentId="16570" class="bodytext">wh-book-room-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824589" fragmentId="16571" class="bodytext">Room_quick_view.jsp</p>
+</td>
+<td width="285"><p id="p824591" fragmentId="16572" class="bodytext">Room Image Previous</p>
+<p id="p824592" fragmentId="16573" class="bodytext">Room Image Next</p>
+<p id="p824593" fragmentId="16574" class="bodytext">Room Detail link</p>
+<p id="p824594" fragmentId="16567" class="bodytext">Book Room</p>
+</td>
+<td width="554"><p id="p824596" fragmentId="16575" class="bodytext">wh-room-prev-click</p>
+<p id="p824597" fragmentId="16576" class="bodytext">wh-room-next-click</p>
+<p id="p824598" fragmentId="16577" class="bodytext">wh-room-detail-click</p>
+<p id="p824599" fragmentId="16570" class="bodytext">wh-book-room-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824602" fragmentId="16578" class="bodytext">Facebook_search.jsp</p>
+</td>
+<td width="285"><p id="p824604" fragmentId="16579" class="bodytext">Search button</p>
+</td>
+<td width="554"><p id="p824606" fragmentId="16580" class="bodytext">wh-facebook-search-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824609" fragmentId="16581" class="bodytext">Search_availability_include.jsp</p>
+</td>
+<td width="285"><p id="p824611" fragmentId="16582" class="bodytext">Help link</p>
+<p id="p824612" fragmentId="16583" class="bodytext">Check Availability</p>
+<p id="p824613" fragmentId="16584" class="bodytext">Modify Packages</p>
+<p id="p824614" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="554"><p id="p824616" fragmentId="16183" class="bodytext">wh-help-click</p>
+<p id="p824617" fragmentId="16065" class="bodytext">wh-check-availability-click</p>
+<p id="p824618" fragmentId="16585" class="bodytext">wh-modify-packages-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824621" fragmentId="16586" class="bodytext">Search_by_amenities.jsp</p>
+</td>
+<td width="285"><p id="p824623" fragmentId="16582" class="bodytext">Help link</p>
+</td>
+<td width="554"><p id="p824625" fragmentId="16183" class="bodytext">wh-help-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824628" fragmentId="16587" class="bodytext">Search_list_results.jsp</p>
+</td>
+<td width="285"><p id="p824630" fragmentId="16588" class="bodytext">Quick view link</p>
+<p id="p824631" fragmentId="16574" class="bodytext">Room Detail link</p>
+<p id="p824632" fragmentId="16589" class="bodytext">Rate Detail link</p>
+<p id="p824633" fragmentId="16217" class="bodytext">Book Now</p>
+<p id="p824634" fragmentId="16590" class="bodytext">Start Compare</p>
+</td>
+<td width="554"><p id="p824636" fragmentId="16591" class="bodytext">wh-quick-view-click</p>
+<p id="p824637" fragmentId="16577" class="bodytext">wh-room-detail-click</p>
+<p id="p824638" fragmentId="16592" class="bodytext">wh-rate-detail-click</p>
+<p id="p824639" fragmentId="16219" class="bodytext">wh-book-now-click</p>
+<p id="p824640" fragmentId="16593" class="bodytext">wh-start-compare-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824643" fragmentId="16594" class="bodytext">Search_summary.jsp</p>
+</td>
+<td width="285"><p id="p824645" fragmentId="16185" class="bodytext">View More link</p>
+<p id="p824646" fragmentId="16186" class="bodytext">View Less link</p>
+<p id="p824647" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="554"><p id="p824649" fragmentId="16282" class="bodytext">wh-view-more-click</p>
+<p id="p824650" fragmentId="16283" class="bodytext">wh-view-less-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824653" fragmentId="16595" class="bodytext">Step_navigation.jsp</p>
+</td>
+<td width="285"><p id="p824655" fragmentId="16596" class="bodytext">Modify Search link</p>
+<p id="p824656" fragmentId="16597" class="bodytext">Print Confirmation link</p>
+</td>
+<td width="554"><p id="p824658" fragmentId="16192" class="bodytext">wh-modify-search-click</p>
+<p id="p824659" fragmentId="16598" class="bodytext">wh-print-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824662" fragmentId="16599" class="bodytext">User_login.jsp</p>
+</td>
+<td width="285"><p id="p824664" fragmentId="16600" class="bodytext">Forgot Username link</p>
+<p id="p824665" fragmentId="16601" class="bodytext">Sign In button</p>
+</td>
+<td width="554"><p id="p824667" fragmentId="16092" class="bodytext">wh-forgot-user-click</p>
+<p id="p824668" fragmentId="15980" class="bodytext">wh-sign-in-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824671" fragmentId="16602" class="bodytext">Google_map.jsp</p>
+</td>
+<td width="285"><p id="p824673" fragmentId="16603" class="bodytext">Get Directions link</p>
+</td>
+<td width="554"><p id="p824675" fragmentId="16604" class="bodytext">wh-get-directions-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824678" fragmentId="16605" class="bodytext">Map.jsp</p>
+</td>
+<td width="285"><p id="p824680" fragmentId="16086" class="bodytext">Close link</p>
+</td>
+<td width="554"><p id="p824682" fragmentId="16087" class="bodytext">wh-close-win-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824685" fragmentId="16606" class="bodytext">Follow_us.jsp</p>
+</td>
+<td width="285"><p id="p824687" fragmentId="16607" class="bodytext">Follow us icon link</p>
+</td>
+<td width="554"><p id="p824689" fragmentId="16608" class="bodytext">wh-follow-us-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824692" fragmentId="16609" class="bodytext">Confirmation_body.jsp</p>
+</td>
+<td width="285"><p id="p824694" fragmentId="16610" class="bodytext">Print</p>
+</td>
+<td width="554"><p id="p824696" fragmentId="16598" class="bodytext">wh-print-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824699" fragmentId="16006" class="bodytext">Header_include.jsp</p>
+</td>
+<td width="285"><p id="p824701" fragmentId="16611" class="bodytext">Change language link</p>
+<p id="p824702" fragmentId="16612" class="bodytext">Survey link</p>
+</td>
+<td width="554"><p id="p824704" fragmentId="16613" class="bodytext">wh-change-language-click</p>
+<p id="p824705" fragmentId="16614" class="bodytext">wh-survey-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824708" fragmentId="16615" class="bodytext">Lead_rate_include.jsp</p>
+</td>
+<td width="285"><p id="p824710" fragmentId="16616" class="bodytext">Book Now link</p>
+</td>
+<td width="554"><p id="p824712" fragmentId="16219" class="bodytext">wh-book-now-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824715" fragmentId="16617" class="bodytext">Page_breadcrumbs.jsp</p>
+</td>
+<td width="285"><p id="p824717" fragmentId="16618" class="bodytext">Page link</p>
+</td>
+<td width="554"><p id="p824719" fragmentId="16619" class="bodytext">wh-breadcrumb-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824722" fragmentId="16620" class="bodytext">Social_network_include.jsp</p>
+</td>
+<td width="285"><p id="p824724" fragmentId="16621" class="bodytext">Social Network link</p>
+</td>
+<td width="554"><p id="p824726" fragmentId="16622" class="bodytext">wh-social-url-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824729" fragmentId="16623" class="bodytext">Amenities.jsp</p>
+</td>
+<td width="285"><p id="p824731" fragmentId="16624" class="bodytext">Amenity detail link</p>
+</td>
+<td width="554"><p id="p824733" fragmentId="16625" class="bodytext">wh-amenity-detail-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824736" fragmentId="16626" class="bodytext">Detail_view.jsp</p>
+</td>
+<td width="285"><p id="p824738" fragmentId="16627" class="bodytext">Previous link</p>
+<p id="p824739" fragmentId="16628" class="bodytext">Next link</p>
+</td>
+<td width="554"><p id="p824741" fragmentId="16575" class="bodytext">wh-room-prev-click</p>
+<p id="p824742" fragmentId="16576" class="bodytext">wh-room-next-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824745" fragmentId="16629" class="bodytext">Guest_rooms.jsp</p>
+</td>
+<td width="285"><p id="p824747" fragmentId="16574" class="bodytext">Room Detail link</p>
+</td>
+<td width="554"><p id="p824749" fragmentId="16577" class="bodytext">wh-room-detail-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824752" fragmentId="16630" class="bodytext">Packages.jsp</p>
+</td>
+<td width="285"><p id="p824754" fragmentId="16631" class="bodytext">Package detail link</p>
+</td>
+<td width="554"><p id="p824756" fragmentId="16241" class="bodytext">wh-package-detail-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824759" fragmentId="16632" class="bodytext">My_account_address.jsp</p>
+</td>
+<td width="285"><p id="p824761" fragmentId="16633" class="bodytext">Save address link</p>
+<p id="p824762" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="554"><p id="p824764" fragmentId="16634" class="bodytext">wh-save-address-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824767" fragmentId="16635" class="bodytext">My_Account_email.jsp</p>
+</td>
+<td width="285"><p id="p824769" fragmentId="16636" class="bodytext">Save email link</p>
+</td>
+<td width="554"><p id="p824771" fragmentId="16637" class="bodytext">wh-save-email-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824774" fragmentId="16021" class="bodytext">My_account_footer.jsp</p>
+</td>
+<td width="285"><p id="p824776" fragmentId="16638" class="bodytext">My Account Main Page</p>
+<p id="p824777" fragmentId="16036" class="bodytext">Contact Us link</p>
+</td>
+<td width="554"><p id="p824779" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+<p id="p824780" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824783" fragmentId="16639" class="bodytext">My_account_memberships.jsp</p>
+</td>
+<td width="285"><p id="p824785" fragmentId="16640" class="bodytext">Member Points link</p>
+<p id="p824786" fragmentId="16641" class="bodytext">Member Statement link</p>
+</td>
+<td width="554"><p id="p824788" fragmentId="16642" class="bodytext">wh-member-points-click</p>
+<p id="p824789" fragmentId="16643" class="bodytext">wh-member-statement-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824792" fragmentId="16644" class="bodytext">My_account_membership_statement.jsp</p>
+</td>
+<td width="285"><p id="p824794" fragmentId="16645" class="bodytext">Statement Detail link</p>
+</td>
+<td width="554"><p id="p824796" fragmentId="16646" class="bodytext">wh-statement-detail-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824799" fragmentId="16647" class="bodytext">My_account_nav.jsp</p>
+</td>
+<td width="285"><p id="p824801" fragmentId="16264" class="bodytext">My Account Main Page link</p>
+<p id="p824802" fragmentId="16025" class="bodytext">Manage User/Password link</p>
+<p id="p824803" fragmentId="16648" class="bodytext">My Profile link</p>
+<p id="p824804" fragmentId="16649" class="bodytext">View Reservation</p>
+<p id="p824805" fragmentId="16650" class="bodytext">My Account Preferences link</p>
+<p id="p824806" fragmentId="16651" class="bodytext">My Memberships</p>
+</td>
+<td width="554"><p id="p824808" fragmentId="15990" class="bodytext">wh-view-dashboard-click</p>
+<p id="p824809" fragmentId="16652" class="bodytext">wh-user-password-click</p>
+<p id="p824810" fragmentId="16653" class="bodytext">wh-user-profile-click</p>
+<p id="p824811" fragmentId="16015" class="bodytext">wh-view-reservation-click</p>
+<p id="p824812" fragmentId="16654" class="bodytext">wh-user-preference-click</p>
+<p id="p824813" fragmentId="16655" class="bodytext">wh-user-membership-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824816" fragmentId="16656" class="bodytext">My_account_password.jsp</p>
+</td>
+<td width="285"><p id="p824818" fragmentId="16657" class="bodytext">Update</p>
+<p id="p824819" fragmentId="16658" class="bodytext">Cancel</p>
+</td>
+<td width="554"><p id="p824821" fragmentId="16659" class="bodytext">wh-update-password-click</p>
+<p id="p824822" fragmentId="16660" class="bodytext">wh-cancel-password-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824825" fragmentId="16661" class="bodytext">My_Account_phone.jsp</p>
+</td>
+<td width="285"><p id="p824827" fragmentId="16662" class="bodytext">Save Phone</p>
+</td>
+<td width="554"><p id="p824829" fragmentId="16663" class="bodytext">wh-save-phone-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824832" fragmentId="16664" class="bodytext">My_account_preferences.jsp</p>
+</td>
+<td width="285"><p id="p824834" fragmentId="16665" class="bodytext">Policy link</p>
+<p id="p824835" fragmentId="16666" class="bodytext">Save Reservation Preferences button</p>
+<p id="p824836" fragmentId="16667" class="bodytext">Save Communication Preferences button</p>
+<p id="p824837" fragmentId="1" class="bodytext">&nbsp;</p>
+</td>
+<td width="554"><p id="p824839" fragmentId="16668" class="bodytext">wh-policy-click</p>
+<p id="p824840" fragmentId="16669" class="bodytext">wh-save-preferences-click</p>
+<p id="p824841" fragmentId="16670" class="bodytext">wh-save-comms-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824844" fragmentId="16671" class="bodytext">My_profile.jsp</p>
+</td>
+<td width="285"><p id="p824846" fragmentId="16657" class="bodytext">Update</p>
+<p id="p824847" fragmentId="16672" class="bodytext">Edit</p>
+<p id="p824848" fragmentId="5877" class="bodytext">Delete</p>
+<p id="p824849" fragmentId="16673" class="bodytext">Add</p>
+</td>
+<td width="554"><p id="p824851" fragmentId="16674" class="bodytext">wh-update-profile-click</p>
+<p id="p824852" fragmentId="16675" class="bodytext">wh-edit-profile-click</p>
+<p id="p824853" fragmentId="16676" class="bodytext">wh-delete-profile-click</p>
+<p id="p824854" fragmentId="16677" class="bodytext">wh-add-profile-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824857" fragmentId="16678" class="bodytext">My_account_reservations.jsp</p>
+</td>
+<td width="285"><p id="p824859" fragmentId="16649" class="bodytext">View Reservation</p>
+</td>
+<td width="554"><p id="p824861" fragmentId="16015" class="bodytext">wh-view-reservation-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824864" fragmentId="16035" class="bodytext">My_account_signin.jsp</p>
+</td>
+<td width="285"><p id="p824866" fragmentId="16679" class="bodytext">Forgot Username?</p>
+<p id="p824867" fragmentId="16680" class="bodytext">Forgot Password?</p>
+<p id="p824868" fragmentId="16681" class="bodytext">Remember me</p>
+<p id="p824869" fragmentId="16682" class="bodytext">Create Account</p>
+<p id="p824870" fragmentId="16601" class="bodytext">Sign In button</p>
+</td>
+<td width="554"><p id="p824872" fragmentId="16092" class="bodytext">wh-forgot-user-click</p>
+<p id="p824873" fragmentId="16093" class="bodytext">wh-forgot-password-click</p>
+<p id="p824874" fragmentId="16683" class="bodytext">wh-remember-me</p>
+<p id="p824875" fragmentId="16684" class="bodytext">wh-create-user-click</p>
+<p id="p824876" fragmentId="15980" class="bodytext">wh-sign-in-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824879" fragmentId="16685" class="bodytext">My_profile_body_membership.jsp</p>
+</td>
+<td width="285"><p id="p824881" fragmentId="16686" class="bodytext">Save Memberships button</p>
+<p id="p824882" fragmentId="16204" class="bodytext">Remove Membership button</p>
+<p id="p824883" fragmentId="16205" class="bodytext">Add Membership button</p>
+</td>
+<td width="554"><p id="p824885" fragmentId="16687" class="bodytext">wh-save-memberships-click</p>
+<p id="p824886" fragmentId="16206" class="bodytext">wh-remove-membership-click</p>
+<p id="p824887" fragmentId="16207" class="bodytext">wh-add-membership-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824890" fragmentId="16688" class="bodytext">Create_user_body_membership.jsp</p>
+</td>
+<td width="285"><p id="p824892" fragmentId="16204" class="bodytext">Remove Membership button</p>
+<p id="p824893" fragmentId="16205" class="bodytext">Add Membership button</p>
+</td>
+<td width="554"><p id="p824895" fragmentId="16206" class="bodytext">wh-remove-membership-click</p>
+<p id="p824896" fragmentId="16207" class="bodytext">wh-add-membership-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824899" fragmentId="16689" class="bodytext">Join_newsletter.jsp</p>
+</td>
+<td width="285"><p id="p824901" fragmentId="16690" class="bodytext">Subscribe</p>
+</td>
+<td width="554"><p id="p824903" fragmentId="16691" class="bodytext">wh-subscribe-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824906" fragmentId="16692" class="bodytext">Guest_name_form.jsp</p>
+</td>
+<td width="285"><p id="p824908" fragmentId="16693" class="bodytext">Update Profile</p>
+</td>
+<td width="554"><p id="p824910" fragmentId="16674" class="bodytext">wh-update-profile-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824913" fragmentId="16694" class="bodytext">Forgot_username.jsp</p>
+</td>
+<td width="285"><p id="p824915" fragmentId="16695" class="bodytext">Send my username</p>
+</td>
+<td width="554"><p id="p824917" fragmentId="16696" class="bodytext">wh-forgot-username-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824920" fragmentId="16697" class="bodytext">Forgot_password.jsp</p>
+</td>
+<td width="285"><p id="p824922" fragmentId="16698" class="bodytext">Send my password</p>
+</td>
+<td width="554"><p id="p824924" fragmentId="16093" class="bodytext">wh-forgot-password-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824927" fragmentId="16699" class="bodytext">Address_list.jsp</p>
+</td>
+<td width="285"><p id="p824929" fragmentId="16672" class="bodytext">Edit</p>
+<p id="p824930" fragmentId="5877" class="bodytext">Delete</p>
+<p id="p824931" fragmentId="16673" class="bodytext">Add</p>
+</td>
+<td width="554"><p id="p824933" fragmentId="16700" class="bodytext">wh-profile-edit-click</p>
+<p id="p824934" fragmentId="16701" class="bodytext">wh-profile-delete-click</p>
+<p id="p824935" fragmentId="16702" class="bodytext">wh-profile-add-click</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td width="352"><p id="p824938" fragmentId="16703" class="bodytext">Email_signup_include.jsp</p>
+</td>
+<td width="285"><p id="p824940" fragmentId="16704" class="bodytext">Enroll Now</p>
+<p id="p824941" fragmentId="16705" class="bodytext">Join Today</p>
+</td>
+<td width="554"><p id="p824943" fragmentId="16706" class="bodytext">wh-enroll-click</p>
+<p id="p824944" fragmentId="16707" class="bodytext">wh-join-newsletter-click</p>
+</td>
+</tr>
+
+</table>
+<h1 id="p824945" fragmentId="87" class="heading1">See Also</h1>
+<p id="p824946" fragmentId="22280" class="bodytext"><a id="h3411" class="" title="Adding Analytics to Track Guest Membership Information for in Room Dining" href="3409.htm" target="_self">In Room Dining Guest Membership Analytics</a></p>
+<p id="p824947" fragmentId="22281" class="bodytext"><a id="h2358_2" class="" title="Add Analytics Tracking Code to the Site" href="analytics_487_webhotel_site_manager.htm" target="_self">Adding Analytics</a> </p>
+<p id="p824948" fragmentId="1" class="bodytext"></p>
+
+<br><br><div class="footerbar"><p class="style5 style1">© 2014 MICROS Systems, Inc. All rights reserved.</div>
+</div>
+<div id="Layer2"><!-- Insert Your Footer Here --></div>
+
+</body>
+</html>
